@@ -35,6 +35,27 @@ public class RomanNumerals {
 			if (number1 ==1)
 				System.out.print("C");
 			}
+			
+			// find the 10 digit
+			if (number >= 10) {
+			int number2 = (integer/ 10);
+			if (number2 ==1)
+				System.out.print("X");
+			
+			}
+			// find the 5 digit
+			if (number >= 5) {
+			int number3 = (integer/ 5);
+			if (number3 ==1)
+				System.out.print("V");
+			}
+			
+			// find the 1 digit
+			if (number >= 1) {
+			int number4 = (integer/ 100) % 10;
+			if (number4==1)
+				System.out.print("I");
+			}
 			}
 		}
 	
