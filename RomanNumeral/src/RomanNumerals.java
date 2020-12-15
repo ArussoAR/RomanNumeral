@@ -133,7 +133,7 @@ public class RomanNumerals {
 			if (integer4 ==8) {
 				System.out.print("VIII");
 			}
-			if (integer4 ==1) {
+			if (integer4 ==9) {
 				System.out.print("IX");
 			}
 			}
